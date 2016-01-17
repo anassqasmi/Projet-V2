@@ -8,13 +8,13 @@ if (! isset ( $_SESSION )) {
 
 include ("../DAO/FileAccess.php");
 
-function test($mon1, $mon2){
+$GET['nom1'] = 'anass';
+$GET['nom2'] = 'anass';
+function test($GET['nom2'], $GET['nom1']){
 	if(strcmp($mon1,$mon2) == 0)
 		return true;
 	return false;
 }
-
-//require 'DAO/FileAccess.php';
 
 function login($login, $passwd) {
 	if (connectUser ( $login, $passwd ) == 1) {

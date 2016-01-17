@@ -168,11 +168,12 @@ function deleteTag()
 	if (isset($_POST['oldCat']))
 	{
 		deleteTagg($_POST['oldCat']);
+		return 1;
 	}else {
 		echo '<script type="text/javascript">'
 				, 'document.location.replace("../View/Tags.php");'
 						, '</script>';
-		exit;
+		return 0;
 	}
 }
 ////////////////////////////// categories
