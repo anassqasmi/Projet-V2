@@ -11,7 +11,7 @@ class StackTest extends PHPUnit_Framework_TestCase
 		//$this->assertEquals(0, count($stack));
 		//array_push($stack, 'foo');
 		
-		$this->assertEquals(true, test('anass', 'anassh'));
+		$this->assertEquals(true, test('anass', 'anass'));
 		
 	}
 }
