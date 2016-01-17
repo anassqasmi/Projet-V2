@@ -1,6 +1,6 @@
 <?php
 
-require 'Actions/Authentification.php';
+require 'Actions/Authentificationss.php';
 		
 class StackTest extends PHPUnit_Framework_TestCase
 {
