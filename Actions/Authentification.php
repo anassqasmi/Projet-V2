@@ -10,8 +10,10 @@ include ("../DAO/FileAccess.php");
 
 $GET['nom1'] = 'anass';
 $GET['nom2'] = 'anass';
-function test($GET['nom2'], $GET['nom1']){
-	if(strcmp($mon1,$mon2) == 0)
+$n1 = $GET['nom2'];
+$n2 = $GET['nom1'];
+function test($n1, $2){
+	if(strcmp($n1,$n2) == 0)
 		return true;
 	return false;
 }
