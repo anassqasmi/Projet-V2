@@ -12,7 +12,7 @@ $GET['nom1'] = 'anass';
 $GET['nom2'] = 'anass';
 $n1 = $GET['nom2'];
 $n2 = $GET['nom1'];
-function test($n1, $2){
+function test($n1, $n2){
 	if(strcmp($n1,$n2) == 0)
 		return true;
 	return false;
